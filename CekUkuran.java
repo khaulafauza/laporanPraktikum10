@@ -1,8 +1,8 @@
 import java.io.File;
 
-public class KodeProgram {
+public class CekUkuran {
     public static void main(String[] args) {
-        var file = new File("test.txt");
+        File file = new File("C:\\Users\\khaul\\java files\\file saya");
 
         if (file.exists()) {
             long sizeInBytes = file.length();
