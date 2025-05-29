@@ -2,7 +2,7 @@ import java.io.File;
 
 public class CekUkuran {
     public static void main(String[] args) {
-        File file = new File("C:\\Users\\khaul\\java files\\file saya");
+        File file = new File("C:\\Users\\khaul\\java files\\file saya.pdf");
 
         if (file.exists()) {
             long sizeInBytes = file.length();
